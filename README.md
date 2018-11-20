@@ -6,25 +6,25 @@ Remote Disk Mounter exploit for macOS Mojave
 <p>Run terminal on your macOS</p>
 
 <p>Execute this command</p>
-# apachectl start
+apachectl start
 
-# cd /etc/apache2/
+cd /etc/apache2/
 
-# cp httpd.conf httpd.conf.bak
+cp httpd.conf httpd.conf.bak
 
-# Uncomment the following line (remove #):
+Uncomment the following line (remove #):
 
-# nano httpd.conf
+nano httpd.conf
 
-# remove (#) near LoadModule php5_module libexec/apache2/libphp5.so
+remove (#) near LoadModule php5_module libexec/apache2/libphp5.so
 
-# apachectl restart
+apachectl restart
 
-# put the source files of LiabSpawn into /Library/WebServer/Documents/
+put the source files of LiabSpawn into /Library/WebServer/Documents/
 
-# then goto 127.0.0.1 with your safari.
+then goto 127.0.0.1 with your safari.
 
-# click go in the webpage of liabspawn then you will be ready!
+click go in the webpage of liabspawn then you will be ready!
 
 
 
